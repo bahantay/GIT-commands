@@ -1,0 +1,185 @@
+GIT Homework 1
+
+To complete the task, you must have Git Bash installed for Windows.
+Created a GitHub account
+
+Perform all the steps of the script in the Flatbush Terminal, Terminal, in the folder under the git.
+
+How to send HW for verification.
+1. Create a text file as in the first HW by Terminal.
+2. Transfer the script to this file.
+3. Next to each action - write a command in GitBash
+
+Send the script file and the link to your git hub to the mentors for verification.
+
+JSON
+ 4. create an external repository as "JSON".
+created new repository "JSON"
+
+ 5. Clone repository JSON on local PC.
+git clone git@github.com:baha***/JSON.git
+
+ 6. Inside local JSON create file “new.json”.
+cd JSON/
+touch new.json
+
+ 7. Add file to git.
+git add new.json
+
+ 8. Commit file.
+ git commit -m "adding json_file"
+
+ 9. Send file to external repository GitHub.
+git push
+
+ 10. Edit file “new.json” - write information about yourself by format JSON.
+vim new.json
+touch button "i"(insert) and write next:
+{
+	"full_name": "Kirgeyev Bakhtiyar",
+	"age": 30,
+	"pets": 0,
+	"wiling_salary": "10000$ per mounth"
+}
+touch button "esc" then write following:
+:wq
+
+ 11. Send changes to an external repository.
+git commit -am "filling file"
+git push
+
+ 12. Create file preferences.json
+touch preferences.json
+
+ 13. write information about favorites in preferences.json by format JSON.
+vim preferences.json
+touch button "i"(insert) and write next:
+{
+	"movie": "1+1",
+	"serial": "peaky blinders",
+	"food": "besparmak",
+	"season": "spring",
+	"country": "Japan"
+}
+touch button "esc" then write following:
+:wq
+
+ 14. Create file sklls.json 
+touch skills.json
+touch button "i"(insert) and write next:
+{
+	"first": "linux",
+	"second": "git",
+	"third": "postman",
+	"fourth": "charles",
+	"fifth": "js"
+}
+touch button "esc" then write following:
+:wq
+
+ 15. Send 2 files to an external repository at once.
+git add preferences.json skills.json
+git commit -m "adding preference and skills"
+git push
+
+ 16. On GitHub create file bug_report.json.
+add file => create file as "bug_report.json"
+
+ 17. Commit changes on GitHub.
+click button "commit changes"
+
+ 18. Modify bug_report.json on the web interface.
+edit file
+
+ 19. Commit changes.
+click button "commit changes"
+
+ 20. Synchronize external and local JSON repository
+git pull
+
+XML
+ 21. Создать внешний репозиторий c названием XML.
+ create repository XML
+
+ 22. Клонировать репозиторий XML на локальный компьютер.
+cd ..
+git clone git@github.com:baha***/XML.git
+
+ 23. Внутри локального XML создать файл “new.xml”.
+cd XML/
+touch new.xml
+
+ 24. Добавить файл под гит.
+git add new.xml
+
+ 25. Закоммитить файл.
+git commit -m "adding new xml file"
+
+ 26. Отправить файл на внешний GitHub репозиторий.
+git push
+
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+vim new.xml
+touch button "i"(insert) and write next:
+<information>
+	<fullname>Bakhtiyar Kirgeyev</fullname>
+	<age>31</age>
+	<pets>0</pets>
+	<salary>10000</salary>
+</information>
+touch button "esc" then write following:
+:wq
+
+ 28. Отправить изменения на внешний репозиторий.
+git commit -am "update"
+git psuh
+
+ 29. Создать файл preferences.xml
+touch preferences.xml
+
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+vim preferences.xml
+touch button "i"(insert) and write next:
+<information>
+	<movie>1+1</movie>
+	<serial>peaky blinders</serial>
+	<food>besparmak</food>
+	<season>spring</season>
+	<country>Japan</country>
+</information>
+touch button "esc" then write following:
+:wq
+
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+touch skills.xml
+vim skills.xml
+touch button "i"(insert) and write next:
+<information>
+	<first>linux</first>
+	<second>git</second>
+	<third>postman</third>
+	<fourth>charles</fourth>
+</information>
+touch button "esc" then write following:
+:wq
+
+ 32. Сделать коммит в одну строку.
+ git add preferences.xml skills.xml && git commit -m "adding prefences and skills"
+
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+git push
+
+ 34. На веб интерфейсе создать файл bug_report.xml.
+create new file "bug_report.xml"
+
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+click "commit changes"
+
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+edit file
+
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+click "commit changes"
+
+ 38. Синхронизировать внешний и локальный репозиторий XML
+git pull
