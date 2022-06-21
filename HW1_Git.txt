@@ -118,7 +118,7 @@ git commit -m "adding new xml file"
  26. Send to the external repository GitHub.
 git push
 
- 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+ 27. Edit file “new.xml” - write information about yourself by format XML.
 vim new.xml
 touch button "i"(insert) and write next:
 <information>
