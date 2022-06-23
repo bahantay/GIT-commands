@@ -130,7 +130,7 @@ touch button "i"(insert) and write next:
 touch button "esc" then write following:
 :wq
 
- 28. Отправить изменения на внешний репозиторий.
+ 28. Send changes to external repository.
 git commit -am "update"
 git psuh
 
