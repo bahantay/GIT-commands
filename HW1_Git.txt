@@ -137,7 +137,7 @@ git psuh
  29. Create file preferences.xml
 touch preferences.xml
 
- 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+ 30. Add information about your preferences in file preferences.xml.
 vim preferences.xml
 touch button "i"(insert) and write next:
 <information>
@@ -150,7 +150,7 @@ touch button "i"(insert) and write next:
 touch button "esc" then write following:
 :wq
 
- 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+ 31. Create file sklls.xml and add information in XML format
 touch skills.xml
 vim skills.xml
 touch button "i"(insert) and write next:
