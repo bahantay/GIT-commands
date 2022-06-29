@@ -163,10 +163,10 @@ touch button "i"(insert) and write next:
 touch button "esc" then write following:
 :wq
 
- 32. Сделать коммит в одну строку.
+ 32. Make an commit with one row. (possible with "-ma")
  git add preferences.xml skills.xml && git commit -m "adding prefences and skills"
 
- 33. Отправить сразу 2 файла на внешний репозиторий.
+ 33. Send 2 files to the repository.
 git push
 
  34. На веб интерфейсе создать файл bug_report.xml.
