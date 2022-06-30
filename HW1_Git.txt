@@ -169,7 +169,7 @@ touch button "esc" then write following:
  33. Send 2 files to the repository.
 git push
 
- 34. На веб интерфейсе создать файл bug_report.xml.
+ 34. Create new file bug_report.xml on external repository.
 create new file "bug_report.xml"
 
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
