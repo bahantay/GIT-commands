@@ -181,5 +181,5 @@ edit file
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 click "commit changes"
 
- 38. Синхронизировать внешний и локальный репозиторий XML
+ 38. Synchronize local and external repository XML
 git pull
