@@ -175,7 +175,7 @@ create new file "bug_report.xml"
  35. Make a commit on web interface.
 click "commit changes"
 
- 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+ 36. Modify bug_report.xml on web interface.
 edit file
 
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
