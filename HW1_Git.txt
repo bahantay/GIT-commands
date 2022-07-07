@@ -163,7 +163,7 @@ touch button "i"(insert) and write next:
 touch button "esc" then write following:
 :wq
 
- 32. Make an commit with one row. (possible with "-ma")
+ 32. Make a commit with one row. (possible with "-ma")
  git add preferences.xml skills.xml && git commit -m "adding prefences and skills"
 
  33. Send 2 files to the repository.
@@ -172,7 +172,7 @@ git push
  34. Create new file bug_report.xml on external repository.
 create new file "bug_report.xml"
 
- 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 35. Make a commit on web interface.
 click "commit changes"
 
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
