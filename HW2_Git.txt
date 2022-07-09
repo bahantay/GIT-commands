@@ -18,7 +18,7 @@
       git branch Charles
       git branch Mobile_testing
 
-2. Запушить все ветки на внешний репозиторий
+2. push all branch
       git push -u origin Postman
       git push -u origin Jmeter
       git push -u origin CheckLists
