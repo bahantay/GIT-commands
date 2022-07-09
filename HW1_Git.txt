@@ -178,7 +178,7 @@ click "commit changes"
  36. Modify bug_report.xml on web interface.
 edit file
 
- 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 37. save changes changes on the web interface.
 click "commit changes"
 
  38. Synchronize local and external repository XML
