@@ -27,7 +27,7 @@
       git push -u origin Chsrles
       git push -u origin Mobile_testing
 
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+3. In the branch Bag Reports make a text doc with a structure of bug report
       git checkout Bag_Reports
       touch structure_bug_rep.txt
       vim structure_bug_rep.txt
